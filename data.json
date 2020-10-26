@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "nasılsın", "naber", "selam","Günaydın","nasıl gidiyor"],
+         "responses": ["Merhabalar ", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim","lütfen isteklerinizi belirtin","sizi dinliyorum"],
+         "context_set": ""
+        },
+        {"tag": "sorgulama",
+         "patterns": ["neden", "niçin", "kimsiniz", "sen kimsin","sen nesin","tanışıyor muyuz"],
+         "responses": ["bu bir kargo chat botudur", "kargo bilgileri hakkında bilgi veren bir chatbotum", "bu bir chatbot programıdır",
+                        "size hizmet için varım","bu bir makina öğrenmesi ile çalışan chatbot tur","lütfen isteğinizi belirtin devam edin"],
+         "context_set": ""
+        },
+        {"tag": "ayrılma",
+         "patterns": ["by", "baybay", "behlül kaçar", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay","hadi eyvallah"],
+         "responses": ["görüşürüz", "tekrar konuşmak üzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine öğrenmesini anlatabilir misin","Derin öğrenme nedir"],
+          "responses": [ "Matematiksel ve istatistiksel yöntemler kullanarak mevcut verilerden çıkarımlar yapmayı sağlayan bir metod","makinelerin dünyayı ele geçirme planları"],
+         "context_set": ""
+        },
+        {"tag": "learn",
+         "patterns": ["Veri Bilimini nasıl öğrenebilirim", "Yapay zeka öğrenmeye nereden başlayabilirim", "Derin Öğrenme için hangi kitaplar okunmalı"],
+         "responses": ["Online kurslar ile öğrenebilirsiniz","Deep Learning with python kitabını okuyabilirsiniz"],
+         "context_set": ""
+        },
+        {"tag": "sipariş",
+         "patterns": ["ürün hazır mı", "siparişimin durumu nedir", "sipariş durumu nedir", "kargom nerde","kargo nerde","karo nerede"],
+         "responses": ["kargo numarasını söyler misiniz"],
+         "context_set": ""
+        },
+        {"tag": "kargo",
+         "patterns": ["kargo numarası", "numara", "ürün kodu","ürün numarası","kargo kodu", "ürün numarası"],
+         "responses": ["numara kontrol ediliyor."],
+         "context_set": ""
+        },
+        {"tag": "mail",
+         "patterns": ["mail gönder", "sonuçları mail atar mısınız","ismi"],
+         "responses": ["mail adresini söyler misiniz"],
+         "context_set": ""
+        }
+ ]
+}
