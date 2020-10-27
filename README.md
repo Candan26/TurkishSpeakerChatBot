@@ -57,4 +57,4 @@ How To Use Program:
       $ pip3 install Keras OR $ conda install -c anaconda keras
       $ pip3 install SpeechRecognition
       $ pip3 install google-cloud-speech
-      $ pip3  install google-cloud-speech
+  
